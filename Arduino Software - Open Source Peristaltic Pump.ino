@@ -4,13 +4,6 @@
 #include <TimerOne.h> //required for ClickEncoder.h 
 #include <EEPROM.h> //write and read EEPROM (to save and load settings)
 
-  long vol_uL=0;
-  long rate_uL_min =0;
-  int cal=0;
-  boolean usb_start=0;
-  char inChar;
-
-
 
 //LCD -----------------------------------------------------------------------------------
 #define LCD_PIN_1 8
@@ -50,6 +43,12 @@ const int CALIBR_DECIMAL_CORR = pow(10,CALIBR_DECIMALS);
 #define BAUD 9600
 String inputString = "";         // a String to hold incoming data
 boolean stringComplete = false;  // whether the string is complete
+long vol_uL=0;
+long rate_uL_min =0;
+int cal=0;
+boolean usb_start=0;
+char inChar;
+
 
 //STATE ------------------------------------------------------------------------------------
 boolean in_menu=0;
