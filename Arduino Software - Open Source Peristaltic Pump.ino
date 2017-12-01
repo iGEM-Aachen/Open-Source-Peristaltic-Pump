@@ -6,16 +6,16 @@
 
 
 //LCD -----------------------------------------------------------------------------------
-#define LCD_PIN_1 8
-#define LCD_PIN_2 9
-#define LCD_PIN_3 10
-#define LCD_PIN_4 11
+#define LCD_PIN_D4 8
+#define LCD_PIN_D5 9
+#define LCD_PIN_D6 10
+#define LCD_PIN_D7 11
 #define LCD_PIN_RS 13
 #define LCD_PIN_EN 12
 #define LCD_COLUMNS 16
 #define LCD_ROWS 2
 // initialize the library with the numbers of the interface pins
-LiquidCrystal lcd(LCD_PIN_RS, LCD_PIN_EN, LCD_PIN_1, LCD_PIN_2, LCD_PIN_3, LCD_PIN_4);
+LiquidCrystal lcd(LCD_PIN_RS, LCD_PIN_EN, LCD_PIN_D4, LCD_PIN_D5, LCD_PIN_D6, LCD_PIN_D7);
 
 //ENCODER --------------------------------------------------------------------------------
 #define ENCODER_PIN_BUTTON 2
