@@ -6,3 +6,5 @@ https://www.arduino.cc/en/Guide/Libraries#toc4
 Required libraries:
 https://github.com/0xPIT/encoder
 http://playground.arduino.cc/Code/Timer1
+
+v1.01: conversion from string constant to 'char*' warnings solved (not tested on the pump, yet)
